@@ -3,6 +3,17 @@
 We take a look at how to add theming to Material-UI in this lecture but we are also looking at how to customize Material-UI with our own CSS styling as well.
 
 
+## Prerequisites
+
+Before you get started, make sure you have the following software installed on your computer:
+
+- [Node.js](https://nodejs.org/en/)
+- [PostrgeSQL](https://www.postgresql.org/)
+- [Nodemon](https://nodemon.io/)
+
+See [Instructions](./INSTRUCTIONS.md) for project setup and assignment instructions.
+
+
 ## Adding Material-UI Theme
 
 1. In `App.js` import the `MuiThemeProvider` and `createMuiTheme` from Material-UI core:
@@ -78,13 +89,3 @@ We take a look at how to add theming to Material-UI in this lecture but we are a
 
     > Note: Take notice that the way we pass our `theme` to the `<MuiThemeProvider>` component is to use the `theme={}` attribute.
 
-
-## Prerequisites
-
-Before you get started, make sure you have the following software installed on your computer:
-
-- [Node.js](https://nodejs.org/en/)
-- [PostrgeSQL](https://www.postgresql.org/)
-- [Nodemon](https://nodemon.io/)
-
-See [Instructions](./INSTRUCTIONS.md) for project setup and assignment instructions.
